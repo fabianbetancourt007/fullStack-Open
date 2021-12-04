@@ -1,0 +1,6 @@
+browser->server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+server-->browser: code 201
+note over browser:
+browser executes the event redrawNotes
+that renders notes to display
+end note
